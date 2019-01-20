@@ -1,5 +1,5 @@
 # Don't Eat The Comments
 
-Accurately label comment sections:
+A Firefox extension for accurately labelling comment sections:
 
 ![](example.png)
