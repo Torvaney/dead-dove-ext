@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Don't Eat The Comments",
+    "version": "1.0",
+
+    "description": "Accurately labels links to comment-sections",
+
+    "icons": {
+      "48": "icons/dove-48.png"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.ycombinator.com/*"],
+        "js": ["ycombinator.js"]
+      }
+    ]
+
+  }
